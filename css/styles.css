@@ -10,8 +10,7 @@ body{
     text-decoration: solid;
 }
 .row{
-
-    width: 1300px;
+    width: 100%;
 }
 .photo img{
     width: 100%;
