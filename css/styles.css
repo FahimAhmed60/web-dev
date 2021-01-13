@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+}
+.navbar-brand img{
+    width: 300px;
+}
+.nav-item{
+    font-size: 1rem;
+    padding: .5rem;
+    text-decoration: solid;
+}
+.row{
+
+    width: 1300px;
+}
+.photo img{
+    width: 100%;
+}
+.react{
+    color: #fd7e14;
+}
+.run{
+    color: #363958;
+}
+.col-md-5{
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+.row-cols-1{
+    height: 11rem;
+}
+.buy{
+    justify-content: space-between;
+    display: flex;
+}
+.btn{
+    color: white;
+    background-color: #3c4dec;
+}
+.first-section{
+    background-color: #fff9f4;
+}
+.orange{
+    color: #fa804c;
+}
+.price{
+    color: #fa804c;
+}
+.card1 img{
+    height: 25rem;
+    background-color: #f1f1f1;
+}
+.casual{
+    color: #363958;
+}
+.halka{
+    border: 0;
+    border-radius: 1rem;
+}
+.extraimg{
+    background-color: white;
+}
+@media (max-width:992px){
+    .photo img, .arekta{
+        width: 300px;
+    }
+}
