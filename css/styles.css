@@ -1,8 +1,8 @@
 body{
     margin: 0;
 }
-.navbar-brand img{
-    width: 300px;
+.logo img{
+    width: 50%;
 }
 .nav-item{
     font-size: 1rem;
@@ -63,4 +63,66 @@ body{
     .photo img, .arekta{
         width: 200px;
     }
+    .left{
+        position: relative;
+        right: 25rem;
+    }
+    .logo-width img{
+        position: relative;
+        left: 5rem;
+        width: 400px;
+    }
+    
+}
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+}
+ul li a{
+    text-decoration: none;
+    padding: 2rem;
+    color: black;
+}
+ul li{
+    padding-top: 2rem;
+}
+.col img{
+    padding-top: 1rem;
+    width: 300px;
+}
+.logo-width{
+   
+}
+.logo-width img{
+    position: relative;
+    right: 20rem;
+    width: 400px;
+}
+.tinta img{
+    height:6rem;
+    width: 5rem;
+}
+.tinta{
+    border: 0;
+    margin-top: 5rem;
+    height: 10rem;
+}
+.tinb{
+    border: 0;
+}
+.tb{
+    border-radius: 2rem;
+}
+.chobir{
+    padding-top: 10rem;
+    margin-top: 5rem;
+}
+.chobi img{
+    width: 100%;
+}
+.footer-link a:hover{
+    color: #363958;
+}
+.title-color{
+    color: #ff7f50;  
 }
