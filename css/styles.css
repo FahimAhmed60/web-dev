@@ -1,8 +1,11 @@
 body{
     margin: 0;
 }
+.header-bg{
+    background-color:#FFF9F4;
+}
 .logo img{
-    width: 50%;
+    width: 60%;
 }
 .nav-item{
     font-size: 1rem;
@@ -13,7 +16,7 @@ body{
     width: 100%;
 }
 .photo img{
-    width: 100%;
+    width: 80%;
 }
 .react{
     color: #fd7e14;
@@ -21,13 +24,7 @@ body{
 .run{
     color: #363958;
 }
-.col-md-5{
-    padding: 2rem;
-    font-size: 1.5rem;
-}
-.row-cols-1{
-    height: 11rem;
-}
+
 .buy{
     justify-content: space-between;
     display: flex;
@@ -59,21 +56,6 @@ body{
 .extraimg{
     background-color: white;
 }
-@media (max-width:992px){
-    .photo img, .arekta{
-        width: 200px;
-    }
-    .left{
-        position: relative;
-        right: 25rem;
-    }
-    .logo-width img{
-        position: relative;
-        left: 5rem;
-        width: 400px;
-    }
-    
-}
 .nav-bar ul{
     list-style: none;
     display: flex;
@@ -90,38 +72,12 @@ ul li{
     padding-top: 1rem;
     width: 300px;
 }
-.logo-width{
-   
-}
-.logo-width img{
-    position: relative;
-    right: 20rem;
-    width: 400px;
-}
-.tinta img{
-    height:6rem;
-    width: 5rem;
-}
-.tinta{
+.card-border{
     border: 0;
-    margin-top: 5rem;
-    height: 10rem;
-}
-.tinb{
-    border: 0;
-}
-.tb{
-    border-radius: 2rem;
-}
-.chobir{
-    padding-top: 10rem;
-    margin-top: 5rem;
-}
-.chobi img{
-    width: 100%;
+    border-radius: 10px;
 }
 .footer-link a:hover{
-    color: #363958;
+    color: white;
 }
 .title-color{
     color: #ff7f50;  
